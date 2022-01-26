@@ -1,5 +1,4 @@
 on: [push]
-
 jobs:  
   Uploading-job:  
     name: 'Upload build on Sofy'
