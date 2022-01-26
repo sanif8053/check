@@ -9,6 +9,6 @@ jobs:
         uses: 'actions/checkout@v2'
       - name: 'Upload build'
         env:
-          build_path: '82ff1ee6-748d-4e3c-85f3-ece980f03f49(2).ipa'
+          build_path: 'abc.ipa'
           subscription_key: 80b30c4e-c920-40a7-9682-6ad2e779a67f
         uses: 'SOFYAIOFFICIAL/sofy-upload-github-actions@main'    
