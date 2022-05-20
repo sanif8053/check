@@ -9,6 +9,6 @@ jobs:
       - name: 'Upload build'
       
         env:
-          build_path: 'abc.ipa'
+          build_path: 'test/applications/ipas/Facebook_Lite_v300.0.0.7.111_apkpure.com2dd3989c-ed40-4e15-944d-7684e362c0f8.apk'
           subscription_key: 80b30c4e-c920-40a7-9682-6ad2e779a67f
         uses: 'SOFYAIOFFICIAL/sofy-upload-github-actions@main'    
